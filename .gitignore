@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Inno Setup output
+installer/*.exe
+ScreenRecorder-Setup.exe
+
+# Large binaries (exceed GitHub 100MB limit)
+# Note: ffmpeg.exe & ffprobe.exe should be downloaded locally or placed in root for build.py
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+*.exe
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and error outputs
+*.log
+logs/*
+!logs/.gitkeep
+build-error.log
+build-output.log
+
+# User local configuration & temporary files
+config/user_config.json
+temp/
+tmp/
+.cache/
+
+# Local recordings & screenshots
+recordings/*
+!recordings/.gitkeep
+!recordings/screenshots/
+recordings/screenshots/*
+!recordings/screenshots/.gitkeep
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Editor / IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini

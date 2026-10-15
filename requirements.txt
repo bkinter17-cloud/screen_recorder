@@ -1,0 +1,27 @@
+# واجهة المستخدم
+PySide6>=6.7.0
+
+# التقاط الشاشة / اكتشاف الشاشات (Phase 2)، لقطة الشاشة (Phase 7)
+mss>=9.0.1
+
+# إدارة العمليات — Pause/Resume عبر تعليق عملية FFmpeg (Phase 3)
+psutil>=5.9.8
+
+# التقاط الصوت الحقيقي (ميكروفون + WASAPI loopback على Windows) (Phase 4)
+soundcard>=0.4.3
+numpy>=1.26.0
+
+# الاختصارات العامة (Phase 6)
+keyboard>=0.13.5
+
+# الكاميرا الاختيارية (Phase 8)
+opencv-python-headless>=4.9.0
+
+# حفظ لقطة الشاشة بصيغة JPG (Phase 7)
+pillow>=10.0.0
+
+# اختبارات
+pytest>=8.0.0
+
+# بناء EXE (Phase 12) — اختياري، مطلوب فقط عند تشغيل build.py
+pyinstaller>=6.0.0

@@ -1,0 +1,62 @@
+{
+  "general": {
+    "language": "ar",
+    "start_minimized": false,
+    "start_with_windows": false,
+    "theme": "dark",
+    "minimize_to_tray": true
+  },
+  "recording": {
+    "default_monitor": "primary",
+    "default_fps": 30,
+    "resolution": "native",
+    "codec": "h264",
+    "bitrate_kbps": 8000,
+    "encoder": "auto",
+    "output_format": "mp4",
+    "quality_preset": "high"
+  },
+  "audio": {
+    "microphone_device": null,
+    "system_audio_device": null,
+    "capture_microphone": true,
+    "capture_system_audio": true,
+    "microphone_volume": 100,
+    "system_audio_volume": 100,
+    "mute_microphone": false
+  },
+  "output": {
+    "save_folder": "ScreenRecorder",
+    "file_format": "mp4",
+    "filename_template": "ScreenRecord_%Y-%m-%d_%H-%M-%S"
+  },
+  "hotkeys": {
+    "start_stop_recording": "Ctrl+Alt+R",
+    "pause_resume": "Ctrl+Alt+P",
+    "screenshot": "Ctrl+Alt+S"
+  },
+  "advanced": {
+    "hardware_acceleration": "auto",
+    "ffmpeg_path": null,
+    "temp_folder": "temp",
+    "logging_level": "INFO"
+  },
+  "mouse": {
+    "show_cursor": true,
+    "highlight_cursor": false,
+    "click_effects": false
+  },
+  "webcam": {
+    "enabled": false,
+    "device": null,
+    "position": "bottom_right",
+    "size_percent": 20
+  },
+  "overlay": {
+    "enabled": true,
+    "show_timer": true,
+    "show_fps": true,
+    "show_mic_level": true,
+    "show_status": true
+  }
+}
